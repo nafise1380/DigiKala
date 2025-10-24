@@ -6,34 +6,29 @@
   <title>دیجی‌کالا</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
+  <link href="DigiKala.css" rel="stylesheet">
 </head>
 <body>
 <header class="bg-light py-2 border-bottom">
   <div class="container d-flex align-items-center justify-content-between">
-    
     <img src="assets/img/digikala.svg" alt="لوگو" height="40">
-
-   
     <div class="input-group" style="max-width: 500px;">
       <span class="input-group-text bg-white border-end-0">
         <i class="bi bi-search"></i>
       </span>
       <input type="text" class="form-control border-start-0" placeholder="جستجو در دیجی‌کالا ...">
     </div>
-
-
     <div class="d-flex align-items-center gap-3">
       <a href="#" class="text-dark text-decoration-none d-flex align-items-center">
-        <i class="bi bi-person fs-4 me-1"></i> ورود
+        <i class="bi bi-person fs-4 me-1"></i> 
+        ورود
       </a>
       <a href="#" class="text-dark text-decoration-none d-flex align-items-center">
-        <i class="bi bi-cart fs-4 me-1"></i> سبد خرید
+        <i class="bi bi-cart fs-4 me-1"></i>  خرید
       </a>
     </div>
   </div>
 </header>
-
 <nav class="bg-white border-bottom">
   <div class="container">
     <ul class="nav nav-pills small">
@@ -46,17 +41,16 @@
     </ul>
   </div>
 </nav>
-
 <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/banner-design-in-digikala-style.jpg" class="d-block w-100 " alt="بنر 1" style="height: 300px; object-fit: cover;">
+      <img src="assets/img/banner-design-in-digikala-style.jpg" class="d-block w-100 " alt="بنر 1" style="height: 300px;">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/pack-digikala-banner222.jpg" class="d-block w-100 " alt="بنر 2" style="height: 300px; object-fit: cover;">
+      <img src="assets/img/pack-digikala-banner222.jpg" class="d-block w-100 " alt="بنر 2" style="height: 300px; ">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/original-89d13f3c1955c76b62046f3c745c2bb6.jpg" class="d-block w-100 " alt="بنر 3" style="height: 300px; object-fit: cover;">
+      <img src="assets/img/original-89d13f3c1955c76b62046f3c745c2bb6.jpg" class="d-block w-100 " alt="بنر 3" style="height: 300px; ">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
@@ -66,48 +60,54 @@
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
-
 <section class="container my-5">
-  <h2 class="mb-4 fs-4 fw-bold">پیشنهاد ویژه</h2>
-  <div class="row g-4">
-   
+  <h2 class="mb-4 fs-4 fw-bold text-center">پیشنهاد ویژه</h2>
+  <div class="row g-4 justify-content-center">
     <div class="col-6 col-md-3">
-      <div class="card h-100">
-        <img src="assets/img/65ef3aa267794fc357aff517.webp" class="card-img-top  my-5" alt="محصول ۱">
-        <div class="card-body">
-          <h6 class="card-title">گوشی موبایل</h6>
-          <p class="text-success fw-bold mb-1">۱۲,۵۰۰,۰۰۰ تومان</p>
-          <button class="btn btn-danger btn-sm w-100">افزودن به سبد</button>
+      <div class="card h-100 d-flex flex-column text-center">
+        <img src="assets/img/65ef3aa267794fc357aff517.webp" class="card-img-top" alt="موبال">
+        <div class=" d-flex flex-column justify-content-between align-items-center flex-grow-1">
+          <div class="d-flex flex-column align-items-center">
+            <h6 >گوشی موبایل</h6>
+            <p class="text-success fw-bold mb-2 mt-2">۱۲,۵۰۰,۰۰۰ تومان</p>
+          </div>
+          <button class="btn btn-danger btn-sm w-100 mt-3" >افزودن به سبد</button>
         </div>
       </div>
     </div>
     <div class="col-6 col-md-3">
-      <div class="card h-100">
-        <img src="assets/img/download.jpeg" class="card-img-top my-5" alt="محصول ۲">
-        <div class="card-body">
-          <h6 class="card-title">هدفون بی‌سیم</h6>
-          <p class="text-success fw-bold mb-1">۹۵۰,۰۰۰ تومان</p>
-          <button class="btn btn-danger btn-sm w-100">افزودن به سبد</button>
+      <div class="card h-100 d-flex flex-column text-center">
+        <img src="assets/img/download.jpeg" class="card-img-top " alt="هدفون بی‌سیم ">
+        <div class=" d-flex flex-column justify-content-between align-items-center flex-grow-1">
+          <div class="d-flex flex-column align-items-center">
+            <h6 >هدفون بی‌سیم</h6>
+            <p class="text-success fw-bold mb-2 mt-2">۹۵۰,۰۰۰ تومان</p>
+          </div>
+          <button class="btn btn-danger btn-sm w-100 mt-3" >افزودن به سبد</button>
         </div>
       </div>
     </div>
     <div class="col-6 col-md-3">
-      <div class="card h-100">
-        <img src="assets/img/TX11-Ultra-Smartwatch.webp" class="card-img-top my-5" alt="محصول ۳">
-        <div class="card-body">
-          <h6 class="card-title">ساعت هوشمند</h6>
-          <p class="text-success fw-bold mb-1">۲,۳۰۰,۰۰۰ تومان</p>
-          <button class="btn btn-danger btn-sm w-100">افزودن به سبد</button>
+      <div class="card h-100 d-flex flex-column text-center">
+        <img src="assets/img/TX11-Ultra-Smartwatch.webp" class="card-img-top " alt="ساعت هوشمند ">
+        <div class=" d-flex flex-column justify-content-between align-items-center flex-grow-1">
+          <div class="d-flex flex-column align-items-center">
+            <h6 >ساعت هوشمند</h6>
+            <p class="text-success fw-bold mb-2 mt-2">۲,۳۰۰,۰۰۰ تومان</p>
+          </div>
+          <button class="btn btn-danger btn-sm w-100 mt-3" >افزودن به سبد</button>
         </div>
       </div>
     </div>
     <div class="col-6 col-md-3">
-      <div class="card h-100">
-        <img src="assets/img/k14lrp6a4545-1.jpg" class="card-img-top my-5 " alt="محصول ۴">
-        <div class="card-body mt-5 ">
-          <h6 class="card-title">کیف و کفش</h6>
-          <p class="text-success fw-bold mb-0">۴۵۰,۰۰۰ تومان</p>
-          <button class="btn btn-danger btn-sm w-100 ">افزودن به سبد</button>
+      <div class="card h-100 d-flex flex-column text-center">
+        <img src="assets/img/k14lrp6a4545-1.jpg" class="card-img-top " alt="کیف و کفش  ">
+        <div class=" d-flex flex-column justify-content-between align-items-center flex-grow-1">
+          <div class="d-flex flex-column align-items-center">
+            <h6 >کیف و کفش</h6>
+            <p class="text-success fw-bold mb-2 mt-2">۴۵۰,۰۰۰ تومان</p>
+          </div>
+          <button class="btn btn-danger btn-sm w-100 mt-3" >افزودن به سبد</button>
         </div>
       </div>
     </div>
